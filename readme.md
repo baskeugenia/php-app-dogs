@@ -16,7 +16,7 @@
     - user: root
     - password: root
     - host: mysql
-- Access the address `http://localhost` to access the project
+- Access the address `[http://localhost/phpcrudajax]` to access the project
 
 ## Persistent data
 
