@@ -14,8 +14,8 @@
 - Run `docker ps` for the name of mysql container
   (`8dc76299cb30   mysql:5                        "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes   0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp                       lamp.mysql`)
 - Run `docker inspect [container name]`: docker inspect 8dc76299cb30
-- Use IP adress for DB connection (172.20.0.2): cd app/phpcrudajax/includes
-- Change `private $dbServer = 172.20.0.2` to the new IP address if different
+- Use IP adress for DB connection (172.20.0.2): 
+    - Change `private $dbServer = 172.20.0.2` in `app/phpcrudajax/includes/Database.php` to the new IP address if different
 - Access the address `[http://localhost/phpcrudajax]` to access the project
 - Access the address `http://localhost:8080` to access phpmyadmin
   - root access
