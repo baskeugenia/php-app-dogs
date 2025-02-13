@@ -44,9 +44,9 @@ CREATE TABLE `dogs` (
 INSERT INTO `dogs` (`id`, `name`, `type`, `voice`, `can_hunt`) VALUES
 (4, 'newdog', 1, 'awwwww', 1),
 (5, 'new', 2, 'awwwww', 0),
-(16, 'somedog', 1, 'ewre', 0),
-(17, 'whatadog', 2, '', 1),
-(18, 'another', 2, 'eeeeeeew', 1);
+(16, 'somedog', 3, 'ewre', 0),
+(17, 'whatadog', 4, '', 1),
+(18, 'another', 5, 'eeeeeeew', 1);
 
 -- --------------------------------------------------------
 
@@ -64,8 +64,11 @@ CREATE TABLE `types` (
 --
 
 INSERT INTO `types` (`id`, `type`) VALUES
-(1, 'MOPS'),
-(2, 'TAKSA');
+(1, 'Сиба-ину),
+(2, 'Мопс), 
+(3, 'Такса), 
+(4, 'Плюшевый лабрадор'), 
+(5, 'Резиновая такса с пищалкой');
 
 --
 -- Indexes for dumped tables
