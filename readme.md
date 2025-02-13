@@ -56,3 +56,26 @@ To add other php modules, you need to edit the `./build/php/Dockerfile` file and
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+# PHP PDO CRUD with ajax jQuery and Bootstrap
+
+PHP MySQL CRUD Application using jQuery Ajax and Bootstrap
+
+- git clone the repository
+
+  Project setup
+- Rename your project directory to "phpcrudajax"
+
+  Create Database:
+
+
+### Run the Project
+
+Run the localhost (Apache service)
+point to the:
+
+```sh
+http://localhost/phpcrudajax
+
+```
+
