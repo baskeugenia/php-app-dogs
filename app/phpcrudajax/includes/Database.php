@@ -2,7 +2,7 @@
 class Database
 {
     #private $dbServer = '127.0.0.1:3306';
-    private $dbServer = '172.19.0.2';
+    private $dbServer = '172.21.0.2';
     private $dbUser = 'root';
     private $dbPassword = 'root';
     private $dbName = 'dogsdb';

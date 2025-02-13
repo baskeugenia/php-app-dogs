@@ -16,7 +16,7 @@ class Type extends Database
 
      public function getRows($start = 0, $limit = 4)
      {
-         $sql = "SELECT * FROM {$this->tableName} ORDER BY id DESC LIMIT {$start},{$limit}";
+         $sql = "SELECT * FROM {$this->tableName} ORDER BY id DESC";
          $stmt = $this->conn->prepare($sql);
          $stmt->execute();
          if ($stmt->rowCount() > 0) {
